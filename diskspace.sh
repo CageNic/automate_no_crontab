@@ -1,5 +1,5 @@
 # run every 12 hours on cron
-# 0	*/6 *		*		* /home/kabary/scripts/diskspace.sh
+# 0	*/6 *		*		* /path/to/script/diskspace.sh
 
 #!/bin/bash
 filesystems=("/" "/apps" "/database")
