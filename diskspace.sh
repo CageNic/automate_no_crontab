@@ -1,3 +1,6 @@
+# run every 12 hours on cron
+# 0	*/6 *		*		* /home/kabary/scripts/diskspace.sh
+
 #!/bin/bash
 filesystems=("/" "/apps" "/database")
 for i in ${filesystems[@]}; do
